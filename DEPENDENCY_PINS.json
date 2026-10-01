@@ -1,0 +1,76 @@
+{
+  "status": "Whole proof built and both independent original statements checked",
+  "requested_lean": "leanprover/lean4:v4.33.1",
+  "source_reference_lean": "leanprover/lean4:v4.33.0",
+  "historical_mathlib_abbrev_not_yet_ported": "0df444a3",
+  "vendored": [
+    {
+      "repo": "plby/lean-proofs",
+      "commit": "8822f7ddef30fadbd92e1c6ab4ed897af356af5e",
+      "source_base": "src/latest",
+      "modifications": "none to vendored plby; local Far*.lean copies identify their adaptation"
+    },
+    {
+      "repo": "frenzymath/FormalPantheon",
+      "commit": "ffbb65c21afc8a36ace67720f1b0df1c63d26bd1",
+      "source_base": "BoundedGaps",
+      "modifications": "plby 4.33.0 compatibility patches listed in COMPATIBILITY_PATCHES.json"
+    }
+  ],
+  "lake_dependencies": [
+    {
+      "name": "mathlib",
+      "url": "https://github.com/leanprover-community/mathlib4.git",
+      "commit": "db584cd6d46c92f209a44c0f1c829460d327499d"
+    },
+    {
+      "name": "plausible",
+      "url": "https://github.com/leanprover-community/plausible",
+      "commit": "b7eb3304aeae834b12dda98993a37f6a41f6f0bb"
+    },
+    {
+      "name": "LeanSearchClient",
+      "url": "https://github.com/leanprover-community/LeanSearchClient",
+      "commit": "5f4d51b81cbd3f6b32b156bfad9056621a040404"
+    },
+    {
+      "name": "importGraph",
+      "url": "https://github.com/leanprover-community/import-graph",
+      "commit": "16f02aa7642864af59f1ff0e384a015994db9118"
+    },
+    {
+      "name": "proofwidgets",
+      "url": "https://github.com/leanprover-community/ProofWidgets4",
+      "commit": "4be2e3d5087eeb272cf5a8853b8f9dd025ef5957"
+    },
+    {
+      "name": "aesop",
+      "url": "https://github.com/leanprover-community/aesop",
+      "commit": "3448c0bcc5ce01b2d1546e483ec3620e32df3d0e"
+    },
+    {
+      "name": "Qq",
+      "url": "https://github.com/leanprover-community/quote4",
+      "commit": "92c15be17b7caf78c2ad767ec40f89052d908d81"
+    },
+    {
+      "name": "batteries",
+      "url": "https://github.com/leanprover-community/batteries",
+      "commit": "4488d40d070b9700d4d5a6aa342f0d40c31b2a2d"
+    },
+    {
+      "name": "Cli",
+      "url": "https://github.com/leanprover/lean4-cli",
+      "commit": "6130a47896ce867c6a4a55373441e59e565bad0f"
+    }
+  ],
+  "validated_lean": "leanprover/lean4:v4.33.0",
+  "version_adjustment": {
+    "from": "4.33.1",
+    "to": "4.33.0",
+    "reason": "Pinned Mathlib and source reference declare4.33.0; cached .olean headers differ. Original4.33.1 full success is not claimed.",
+    "dependency_commits_changed": false
+  },
+  "actual_whole_build_metadata": "audit_logs/full-build-meta.json",
+  "actual_axiom_log": "audit_logs/original-statements-and-axioms.log"
+}

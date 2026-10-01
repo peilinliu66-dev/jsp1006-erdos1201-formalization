@@ -1,0 +1,44 @@
+[
+  {
+    "path": "verification/final-module-leanchecker-meta.json",
+    "original_sha256": "854ba3b28361791bd14f56dd7fbec253fc8e68ba82978a156634178840929986",
+    "published_sha256": "c6eb0f851e2d2bdcd67bb357758bb486f2a068c849789c3204184857fbb62e90",
+    "normalization": "Private absolute project paths and BOM/line endings only; no proof result changed"
+  },
+  {
+    "path": "verification/final-module-leanchecker.log",
+    "original_sha256": "b93f27df73147b99d3508511909510367ec9b5b7780cacbb3a0132f2b9e98a42",
+    "published_sha256": "7ac506fb4fe4d82d986eef8e2eecdd1751e0e52117e19b922f39b250b06dfca1",
+    "normalization": "Private absolute project paths and BOM/line endings only; no proof result changed"
+  },
+  {
+    "path": "verification/full-build-meta.json",
+    "original_sha256": "d727753e1f6c16ce5c1a236548a9be611a5717959de8a1ee60631958128d565c",
+    "published_sha256": "62b8eb8251373f770903d309fa0b99331402fbdd2cda5cc215a0fb1edaa5d106",
+    "normalization": "Private absolute project paths and BOM/line endings only; no proof result changed"
+  },
+  {
+    "path": "verification/full-build.log",
+    "original_sha256": "0c6cfb521e63112d89528a79df77b017eaf852107da65c8ba29dea7cb8989193",
+    "published_sha256": "45f40b2c63e28e0f73f648cc2b262fd190abfcc3c01011b0da4e882ca3d7b70a",
+    "normalization": "Private absolute project paths and BOM/line endings only; no proof result changed"
+  },
+  {
+    "path": "verification/locked-dependency-checkouts.json",
+    "original_sha256": "ebe9daf5d43d0994890a4dbd0f01824432e3dd2bf52b0fef0088bac6f3f73e63",
+    "published_sha256": "3f2e6cacaa254d54a88c896c2c1106aec56d868b55fd21e5c28477e285f269ec",
+    "normalization": "Private absolute project paths and BOM/line endings only; no proof result changed"
+  },
+  {
+    "path": "verification/original-statements-and-axioms-meta.json",
+    "original_sha256": "0dc3fc007d49b2cfc736ab61bcc4281920ae44b76000de8a45ee80fd7695168a",
+    "published_sha256": "c6d6b00330ff7d15bb02da4ae6cfdeccda3bed54db55a76c05bb92073e53b0a2",
+    "normalization": "Private absolute project paths and BOM/line endings only; no proof result changed"
+  },
+  {
+    "path": "verification/original-statements-and-axioms.log",
+    "original_sha256": "39d4f85014701c350f111aa64a86522de581ce686f3f7536dbef9a1f6978401b",
+    "published_sha256": "4c37355211445117ab06e4e53d1bf56c9781d3532020ceab41e6f92e393d1383",
+    "normalization": "Private absolute project paths and BOM/line endings only; no proof result changed"
+  }
+]

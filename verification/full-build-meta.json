@@ -1,0 +1,16 @@
+{
+  "start": "2026-10-01T04:22:55.9784907+08:00",
+  "phase": "AUTHORIZED_REPAIR",
+  "cwd": "${AUDIT_ROOT}\\build\\reference_4_33_0",
+  "command": "LEAN_NUM_THREADS=2 elan run leanprover/lean4:v4.33.0 lake build JSP1006Proof",
+  "targets": [
+    "JSP1006Proof"
+  ],
+  "runtime_workers": 2,
+  "candidate_lean": "4.33.0",
+  "original_requested_lean": "4.33.1",
+  "mathlib_commit": "db584cd6d46c92f209a44c0f1c829460d327499d",
+  "note": "Repaired candidate work tree; not an original 4.33.1 verification claim",
+  "end": "2026-10-01T04:23:26.0942872+08:00",
+  "exit_code": 0
+}

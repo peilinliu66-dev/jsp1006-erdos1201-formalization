@@ -1,0 +1,17 @@
+.lake/
+.external_cache/
+third_party/
+bootstrap_receipt.json
+verification_logs/
+__pycache__/
+/FarAmbient.lean
+/FarCutoffPayment.lean
+/FarExceptionalEnergy.lean
+/FarLargePrimeEnergy.lean
+/FarNoSmallEnergy.lean
+/FarPaidProduct.lean
+/FarRectangle.lean
+/FarSampleEnergy.lean
+/FarSampleSmall.lean
+/FarScheduledEnergy.lean
+/FarTypicalEnergy.lean

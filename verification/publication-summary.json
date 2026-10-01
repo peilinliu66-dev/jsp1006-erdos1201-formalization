@@ -1,0 +1,107 @@
+{
+  "status": "PASSED",
+  "original_proof_snapshot_match": true,
+  "public_directory_build": {
+    "status": "PASSED",
+    "steps": [
+      {
+        "label": "lean-version",
+        "command": [
+          "lake",
+          "env",
+          "lean",
+          "--version"
+        ],
+        "started_at": "2026-10-01T04:07:56.460819+00:00",
+        "log": "01-lean-version.log",
+        "exit_code": 0,
+        "ended_at": "2026-10-01T04:08:29.094126+00:00",
+        "log_sha256": "b8d335ab8351a408bac4208701a6e820c84b47cae026393a5e88ffbd40c5447e"
+      },
+      {
+        "label": "whole-project-build",
+        "command": [
+          "lake",
+          "build",
+          "JSP1006Proof"
+        ],
+        "started_at": "2026-10-01T04:08:29.101182+00:00",
+        "log": "02-whole-project-build.log",
+        "exit_code": 0,
+        "ended_at": "2026-10-01T04:12:09.191269+00:00",
+        "log_sha256": "fb8835c6ddcbab155d8308b885b185c518dffc44eeea7cf11cbb87ea246bf77b"
+      },
+      {
+        "label": "original-statement-and-axioms",
+        "command": [
+          "lake",
+          "env",
+          "lean",
+          "VerifyOriginalStatement.lean"
+        ],
+        "started_at": "2026-10-01T04:12:09.199184+00:00",
+        "log": "03-original-statement-and-axioms.log",
+        "exit_code": 0,
+        "ended_at": "2026-10-01T04:16:49.710686+00:00",
+        "log_sha256": "4c37355211445117ab06e4e53d1bf56c9781d3532020ceab41e6f92e393d1383"
+      }
+    ],
+    "axioms": {
+      "audit_erdos1201_formalconjectures_statement": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "audit_erdos1201_original_statement": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "Erdos1201.erdos_1201": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "Erdos1201.erdos_1201_eventually": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    }
+  },
+  "fresh_network_bootstrap": {
+    "status": "PASSED",
+    "external_files": 774,
+    "generated_far_files": 11,
+    "all_772_external_lean_and_11_far_hashes_match_accepted_sources": true
+  },
+  "scope": "Fresh network source reconstruction and publication-directory build with the previously accepted .lake cache; not a second-machine or empty-cache proof rebuild",
+  "path_normalization": "Absolute local project paths replaced by ${PROJECT} in published metadata/log copies",
+  "permission_status": "UNRESOLVED; no blanket license assigned to external sources or their adaptations",
+  "evidence": [
+    {
+      "file": "verification/publication-01-lean-version.log",
+      "original_sha256": "b8d335ab8351a408bac4208701a6e820c84b47cae026393a5e88ffbd40c5447e",
+      "published_sha256": "7a500134ba72c45d1ce50e1c6d9681376189b1190c0c48f54fde95efa7b5e553",
+      "normalization": "Absolute local paths only"
+    },
+    {
+      "file": "verification/publication-02-whole-project-build.log",
+      "original_sha256": "fb8835c6ddcbab155d8308b885b185c518dffc44eeea7cf11cbb87ea246bf77b",
+      "published_sha256": "9dc7c2e05c55b3fc858511fd28981f6658b1bb684018fc5fa506d72d8c3752f1",
+      "normalization": "Absolute local paths only"
+    },
+    {
+      "file": "verification/publication-03-original-statement-and-axioms.log",
+      "original_sha256": "4c37355211445117ab06e4e53d1bf56c9781d3532020ceab41e6f92e393d1383",
+      "published_sha256": "39d4f85014701c350f111aa64a86522de581ce686f3f7536dbef9a1f6978401b",
+      "normalization": "Absolute local paths only"
+    },
+    {
+      "file": "verification/publication-verification.json",
+      "original_sha256": "1e5b064006e44090c72812beb7ebbc3250d77bc62027b3fce8be8b95c87f8543",
+      "published_sha256": "fe3719952af1f1ed690ca697715de57cdb8147877bdaf3d35d03819f9c006832",
+      "normalization": "Absolute local paths only"
+    }
+  ]
+}

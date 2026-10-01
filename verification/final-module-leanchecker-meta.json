@@ -1,0 +1,17 @@
+{
+  "start": "2026-10-01T04:24:51.0205226+08:00",
+  "phase": "AUTHORIZED_REPAIRED_FINAL_CHECK",
+  "cwd": "${AUDIT_ROOT}\\build\\reference_4_33_0",
+  "command": "LEAN_NUM_THREADS=1 elan run leanprover/lean4:v4.33.0 lake env leanchecker --verbose Erdos1201",
+  "runtime_workers": 1,
+  "lean_version": "Lean (version 4.33.0, x86_64-w64-windows-gnu, commit d8b18978322de05a8f3dba51ef03cf5461676c17, Release)",
+  "original_requested_lean": "4.33.1",
+  "mathlib_commit": "db584cd6d46c92f209a44c0f1c829460d327499d",
+  "statement_sha256": "E8ECD9E09E4F347A6EE4137180BCCDE6ED13763BFB8AE6CC77A9BEBD1C741AE9",
+  "final_source_sha256": "B282388C18069BC400D527158CDD68CEEF9BDE9E1DB932EAAC02FC85A3EAD803",
+  "kind": "kernel",
+  "note": "4.33.0 repaired candidate check; not original 4.33.1 acceptance",
+  "replay_scope": "Official leanchecker module replay of Erdos1201 and matching submodules; imported dependency environment reused; no --fresh; unsafe/partial declarations skipped; axiom declarations permitted, so actual four axiom reports required separately.",
+  "end": "2026-10-01T04:25:30.0387788+08:00",
+  "exit_code": 0
+}

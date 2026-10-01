@@ -1,0 +1,786 @@
+⚠ [8705/8784] Replayed Elementary
+warning: Elementary.lean:107:8: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+ℹ [9071/9137] Replayed ErdosProblems.Erdos448.HalberstamLean
+info: third_party/plby/src/latest/ErdosProblems/Erdos448/HalberstamLean.lean:455:0: 'HalberstamScratch.prime_power_local_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos448/HalberstamLean.lean:456:0: 'HalberstamScratch.halberstam_richert_of_mass_convolution' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [9072/9137] Replayed ErdosProblems.Erdos448.PrimePowerConvolution448
+info: third_party/plby/src/latest/ErdosProblems/Erdos448/PrimePowerConvolution448.lean:193:0: 'PrimePowerConvolution448.logPartialSum_le_primePowerMass_convolution' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [9073/9137] Replayed ErdosProblems.Erdos448.PrimePowerMassLinear448
+info: third_party/plby/src/latest/ErdosProblems/Erdos448/PrimePowerMassLinear448.lean:418:0: 'PrimePowerMassLinear448.primePowerMass_le_linear' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [9074/9137] Replayed ErdosProblems.Erdos448.HalberstamComplete448
+info: third_party/plby/src/latest/ErdosProblems/Erdos448/HalberstamComplete448.lean:94:0: 'HalberstamComplete448.halberstam_richert_explicit' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos448/HalberstamComplete448.lean:95:0: 'HalberstamComplete448.halberstam_richert_explicit_source_indexing' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [9132/9137] Replayed ErdosProblems.Erdos202
+info: third_party/plby/src/latest/ErdosProblems/Erdos202.lean:21811:0: 'Erdos202.erdos_202' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos202.lean:21813:0: 'Erdos202.ParkPham.park_pham_threshold_not_small_lt_exists' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos202.lean:21816:0: 'Erdos202.ParkPham.spread_disjointness_theorem' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos202.lean:21819:0: 'Erdos202.bfv_pruning_theorem' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos202.lean:21822:0: 'Erdos202.bfv_omega_count_theorem' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos202.lean:21825:0: 'Erdos202.bfv_lower_bound_theorem' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [9133/9333] Replayed Util.MertensThird
+info: third_party/plby/src/latest/Util/MertensThird.lean:780:0: 'mertens_third_theorem' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [9179/9333] Replayed ErdosProblems.Erdos67b.MRGSA9SourceRadiusWide
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA9SourceRadiusWide.lean:233:0: 'Erdos67b.MRHalaszBands.norm_prime_cpow_wideSourceLow_le_exp_three_div' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA9SourceRadiusWide.lean:234:0: 'Erdos67b.MRHalaszBands.sum_prime_radial_norm_sub_wideSourceGap_le_constant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA9SourceRadiusWide.lean:235:0: 'Erdos67b.MRHalaszBands.two_mul_sum_norm_prime_cpow_sq_wideSourceLow_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [9188/9333] Replayed ErdosProblems.Erdos67b.MRGSA9SourceHalaszPointWide
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA9SourceHalaszPointWide.lean:358:0: 'Erdos67b.MRHalaszBands.norm_twoBlock_alternatingLow_deleteSmallPrimes_mul_high_sq_le_wideSource' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA9SourceHalaszPointWide.lean:360:0: 'Erdos67b.MRHalaszBands.norm_twoBlock_alternatingLow_deleteSmallPrimes_mul_high_le_wideHalaszPoint' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [9194/9333] Replayed ErdosProblems.Erdos67b.MRGSA10RpowAverage
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10RpowAverage.lean:66:0: 'Erdos67b.MRHalaszBands.intervalIntegral_rpow_one_sub_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10RpowAverage.lean:67:0: 'Erdos67b.MRHalaszBands.intervalIntegral_rpow_one_sub_le_div_log' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [9199/9333] Replayed ErdosProblems.Erdos67b.MRGSA10ShortPrimeIntervalBeta
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10ShortPrimeIntervalBeta.lean:152:0: 'Erdos67b.MRHalaszBands.exists_sum_log_prime_Ioc_beta_mertens_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [9203/9333] Replayed ErdosProblems.Erdos67b.MRGSA10PrimeGaussianNearRow
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10PrimeGaussianNearRow.lean:391:0: 'Erdos67b.MRHalaszBands.sum_gsA10PrimeNearWindow_log_div_gaussian_le_of_intervalBeta' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10PrimeGaussianNearRow.lean:392:0: 'Erdos67b.MRHalaszBands.sum_gsA10PrimeFarWindow_log_div_gaussian_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10PrimeGaussianNearRow.lean:393:0: 'Erdos67b.MRHalaszBands.sum_gsA10PrimeWindow_log_div_gaussian_le_of_intervalBeta' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10PrimeGaussianNearRow.lean:394:0: 'Erdos67b.MRHalaszBands.exists_sum_gsA10PrimeWindow_log_div_gaussian_beta_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [9204/9333] Replayed ErdosProblems.Erdos67b.MRGSA10GaussianSchurWeighted
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10GaussianSchurWeighted.lean:115:0: 'Erdos67b.MRHalaszBands.finiteHalaszLogGaussianPairMajorant_le_weightedSchur' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [9207/9333] Replayed ErdosProblems.Erdos67b.MRGSA10WeightedChebyshev
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10WeightedChebyshev.lean:278:0: 'Erdos67b.MRHalaszBands.sum_vonMangoldt_mul_rpow_neg_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10WeightedChebyshev.lean:279:0: 'Erdos67b.MRHalaszBands.sum_vonMangoldt_mul_rpow_neg_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [9242/9333] Replayed ErdosProblems.Erdos67b.MRShiuGlobalMean
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRShiuGlobalMean.lean:180:0: 'Erdos67b.MRShiu.partialSum_le_exp' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [9243/9333] Replayed ErdosProblems.Erdos67b.MRGlobalExpWeightedPrimeTail
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGlobalExpWeightedPrimeTail.lean:238:0: 'Erdos67b.PrimeEstimates.expWeightedPrimeTail_le_log_two_add_global' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [9244/9333] Replayed ErdosProblems.Erdos67b.MRShiuShiftedEuler
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRShiuShiftedEuler.lean:167:0: 'Erdos67b.MRShiu.globalEulerExponent_le_shifted' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [9246/9333] Replayed ErdosProblems.Erdos67b.MRGSA10ShiuMean
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10ShiuMean.lean:102:0: 'Erdos67b.MRHalaszBands.gsA10ShiuWeight_partialSum_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [9247/9333] Replayed ErdosProblems.Erdos67b.MRGSA10PrefixIntegralMajorant
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10PrefixIntegralMajorant.lean:63:0: 'Erdos67b.MRHalaszBands.norm_positivePrefixSum_le_partialSum' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10PrefixIntegralMajorant.lean:64:0: 'Erdos67b.MRHalaszBands.norm_intervalIntegral_positivePrefixSum_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [9251/9333] Replayed ErdosProblems.Erdos67b.MRGSA10SecondSecondaryChebyshevReduction
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10SecondSecondaryChebyshevReduction.lean:423:0: 'Erdos67b.MRHalaszBands.norm_positivePrefixSum_mul_le_cutoff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10SecondSecondaryChebyshevReduction.lean:424:0: 'Erdos67b.MRHalaszBands.gsFiniteNormDirichletMass_mul_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10SecondSecondaryChebyshevReduction.lean:425:0: 'Erdos67b.MRHalaszBands.sum_norm_gsRealShift_highGeneralizedMangoldt_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10SecondSecondaryChebyshevReduction.lean:426:0: 'Erdos67b.MRHalaszBands.norm_positivePrefixSum_secondSecondaryIntegrand_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [9252/9333] Replayed ErdosProblems.Erdos67b.MRGSA10GeneralizedMangoldtBound
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10GeneralizedMangoldtBound.lean:135:0: 'Erdos67b.MRHalaszBands.norm_gsGeneralizedMangoldt_prime_pow_le_geometric' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10GeneralizedMangoldtBound.lean:136:0: 'Erdos67b.MRHalaszBands.norm_gsA9HighGeneralizedMangoldt_prime_pow_le_geometric' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [9253/9333] Replayed ErdosProblems.Erdos67b.MRGSA10GeneralizedMangoldtSplit
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10GeneralizedMangoldtSplit.lean:89:0: 'Erdos67b.MRHalaszBands.gsGeneralizedMangoldt_apply_prime' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10GeneralizedMangoldtSplit.lean:91:0: 'Erdos67b.MRHalaszBands.gsA9HighGeneralizedMangoldt_eq_primePart_add_higherPrimePowerPart' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [9255/9333] Replayed ErdosProblems.Erdos67b.MRGSA10PrimeLambdaL2
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10PrimeLambdaL2.lean:227:0: 'Erdos67b.MRHalaszBands.exists_intervalIntegral_normSq_gsA10PrimeLambdaPolynomial_le_betaSchur' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [9257/9333] Replayed ErdosProblems.Erdos67b.MRGSA10PrimeLambdaDiagonal
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10PrimeLambdaDiagonal.lean:307:0: 'Erdos67b.MRHalaszBands.gsA10PrimeLambdaSchurWeight_le_vonMangoldt' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10PrimeLambdaDiagonal.lean:309:0: 'Erdos67b.MRHalaszBands.exists_two_intervalIntegral_normSq_gsA10PrimeLambda_tao_le_betaSchur' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [9259/9333] Replayed ErdosProblems.Erdos67b.MRGSA10PrimeVerticalCauchy
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10PrimeVerticalCauchy.lean:85:0: 'Erdos67b.MRHalaszBands.exists_norm_intervalIntegral_mul_gsA10PrimeLambda_pair_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [9260/9333] Replayed ErdosProblems.Erdos67b.MRGSA10LambdaWindowMass
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10LambdaWindowMass.lean:261:0: 'Erdos67b.MRHalaszBands.dirichletPerronCoefficientMass_gsA10LambdaWindow_anti' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10LambdaWindowMass.lean:263:0: 'Erdos67b.MRHalaszBands.dirichletPerronCoefficientMass_gsA10LambdaWindow_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10LambdaWindowMass.lean:265:0: 'Erdos67b.MRHalaszBands.mul_dirichletPerronCoefficientMass_gsA10LambdaWindow_sourceLines_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10LambdaWindowMass.lean:267:0: 'Erdos67b.MRHalaszBands.mul_dirichletPerronCoefficientMass_gsA10SourceDeleted_sourceLines_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [9262/9333] Replayed ErdosProblems.Erdos67b.MRGSA10HigherPrimePowerMass
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10HigherPrimePowerMass.lean:150:0: 'Erdos67b.MRHalaszBands.sum_geometricMangoldtPrimePowerTail_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10HigherPrimePowerMass.lean:151:0: 'Erdos67b.MRHalaszBands.gsA10HigherPrimePowerGeometricMass_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [9263/9333] Replayed ErdosProblems.Erdos67b.MRGSA10SecondSecondaryHigherPrimePower
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10SecondSecondaryHigherPrimePower.lean:496:0: 'Erdos67b.MRHalaszBands.norm_gsA10TwoBlockSecondSecondaryHigherPrimePowerPrefix_le_mass' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10SecondSecondaryHigherPrimePower.lean:497:0: 'Erdos67b.MRHalaszBands.norm_gsA10TwoBlockSecondSecondaryHigherPrimePowerPrefix_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [9265/9333] Replayed ErdosProblems.Erdos67b.MRGSA10LambdaVerticalSplit
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10LambdaVerticalSplit.lean:448:0: 'Erdos67b.MRHalaszBands.LSeries_gsA10LambdaWindow_eq_prime_add_higherPrimePower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10LambdaVerticalSplit.lean:449:0: 'Erdos67b.MRHalaszBands.norm_gsA10HigherPrimePowerLambdaPolynomial_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10LambdaVerticalSplit.lean:450:0: 'Erdos67b.MRHalaszBands.norm_LSeries_gsA10LambdaWindow_product_sub_primeProduct_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10LambdaVerticalSplit.lean:452:0: 'Erdos67b.MRHalaszBands.norm_intervalIntegral_mul_LambdaWindowProduct_sub_primeProduct_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [9266/9333] Replayed ErdosProblems.Erdos67b.MRGSA10LambdaVerticalContour
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10LambdaVerticalContour.lean:163:0: 'Erdos67b.MRHalaszBands.continuous_LSeries_gsA10LambdaWindow' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10LambdaVerticalContour.lean:164:0: 'Erdos67b.MRHalaszBands.exists_norm_intervalIntegral_mul_gsA10LambdaWindow_pair_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [9267/9333] Replayed ErdosProblems.Erdos67b.MRGSA10FixedHighVerticalContour
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10FixedHighVerticalContour.lean:201:0: 'Erdos67b.MRHalaszBands.exists_norm_intervalIntegral_mul_gsA10PrimeLambda_fixedHigh_pair_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10FixedHighVerticalContour.lean:203:0: 'Erdos67b.MRHalaszBands.exists_norm_intervalIntegral_mul_gsA10LambdaWindow_fixedHigh_pair_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [9269/9333] Replayed ErdosProblems.Erdos67b.MRGSA10TailoredPrefixPerron
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10TailoredPrefixPerron.lean:163:0: 'Erdos67b.MRHalaszBands.positivePrefixSum_eq_dirichletPerronStarredSum_add_half' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10TailoredPrefixPerron.lean:164:0: 'Erdos67b.MRHalaszBands.norm_positivePrefixSum_gsA10TwoBlockTailored_sub_perron_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10TailoredPrefixPerron.lean:165:0: 'Erdos67b.MRHalaszBands.norm_positivePrefixSum_gsA10TwoBlockTailored_sub_perron_le_sourceWindow' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [9270/9333] Replayed ErdosProblems.Erdos67b.MRGSA10TailoredPerronWindow
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10TailoredPerronWindow.lean:436:0: 'Erdos67b.MRHalaszBands.norm_LSeries_gsA10TwoBlockTailoredCoefficient_le_A10Window' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [9271/9333] Replayed ErdosProblems.Erdos67b.MRGSA10MovingPerronHigh
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10MovingPerronHigh.lean:201:0: 'Erdos67b.MRHalaszBands.norm_LSeries_gsA10TwoBlockAlternatingLow_mul_high_le_fixedHalasz' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10MovingPerronHigh.lean:203:0: 'Erdos67b.MRHalaszBands.LSeries_gsA10SourceTailoredCoefficient_eq_fourFactors_fixedHalasz' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [9272/9333] Replayed ErdosProblems.Erdos67b.MRGSA10FixedHighTailoredVertical
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10FixedHighTailoredVertical.lean:220:0: 'Erdos67b.MRHalaszBands.exists_norm_intervalIntegral_LSeries_gsA10SourceTailored_fixedHigh_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [9274/9333] Replayed ErdosProblems.Erdos67b.MRGSA10FixedHighTailoredVerticalScalar
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10FixedHighTailoredVerticalScalar.lean:72:0: 'Erdos67b.MRHalaszBands.exists_norm_intervalIntegral_LSeries_gsA10SourceTailored_fixedHigh_scalar_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [9275/9333] Replayed ErdosProblems.Erdos67b.MRGSA10MovingPerronContour
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10MovingPerronContour.lean:349:0: 'Erdos67b.MRHalaszBands.mul_dirichletPerronCoefficientMass_gsA10LambdaWindow_moving_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10MovingPerronContour.lean:351:0: 'Erdos67b.MRHalaszBands.norm_LSeries_gsA10TwoBlockTailoredCoefficient_le_movingScalar' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10MovingPerronContour.lean:353:0: 'Erdos67b.MRHalaszBands.gsA10MovingVerticalScalar_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10MovingPerronContour.lean:355:0: 'Erdos67b.MRHalaszBands.norm_LSeries_gsA10TwoBlockTailoredCoefficient_le_movingScalar_of_abs_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [9276/9333] Replayed ErdosProblems.Erdos67b.MRGSA10PerronErrorSchedule
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10PerronErrorSchedule.lean:181:0: 'Erdos67b.MRHalaszBands.rpow_sourcePerronLine_le_exp_two_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10PerronErrorSchedule.lean:182:0: 'Erdos67b.MRHalaszBands.norm_positivePrefixSum_gsA10TwoBlockTailored_sub_perron_le_sourceHeight' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10PerronErrorSchedule.lean:184:0: 'Erdos67b.MRHalaszBands.norm_positivePrefixSum_gsA10TwoBlockTailored_sub_perron_div_le_sourceHeight' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [9277/9333] Replayed ErdosProblems.Erdos67b.MRGSA10MovingPerronIntegral
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10MovingPerronIntegral.lean:193:0: 'Erdos67b.MRHalaszBands.norm_gsA10TwoBlockTailoredPerronIntegral_le_moving' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10MovingPerronIntegral.lean:195:0: 'Erdos67b.MRHalaszBands.norm_gsA10TwoBlockMovingPerronIntegral_le_scalar' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [9278/9333] Replayed ErdosProblems.Erdos67b.MRGSA10MovingKernelRpow
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10MovingKernelRpow.lean:119:0: 'Erdos67b.MRHalaszBands.norm_natCast_cpow_div_vertical_le_two_mul_rpow' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10MovingKernelRpow.lean:121:0: 'Erdos67b.MRHalaszBands.norm_gsA10MovingPerronKernel_le_exact_rpow' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10MovingKernelRpow.lean:123:0: 'Erdos67b.MRHalaszBands.norm_gsA10MovingPerronKernel_le_scale' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [9279/9333] Replayed ErdosProblems.Erdos67b.MRGSA10WeightedVerticalCauchy
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10WeightedVerticalCauchy.lean:504:0: 'Erdos67b.MRHalaszBands.gsA10WeightedVerticalEnergy_dyadic_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10WeightedVerticalCauchy.lean:506:0: 'Erdos67b.MRHalaszBands.gsA10WeightedVerticalEnergy_le_of_dyadic_cumulative' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10WeightedVerticalCauchy.lean:508:0: 'Erdos67b.MRHalaszBands.norm_intervalIntegral_mul_div_vertical_le_weightedEnergy' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10WeightedVerticalCauchy.lean:510:0: 'Erdos67b.MRHalaszBands.norm_intervalIntegral_mul_div_vertical_le_of_weightedEnergy' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [9281/9333] Replayed ErdosProblems.Erdos67b.MRGSA10BetaSourceSchedule
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10BetaSourceSchedule.lean:283:0: 'Erdos67b.MRHalaszBands.log_le_two_mul_gsA10BetaSourceDepth_sub_div' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10BetaSourceSchedule.lean:284:0: 'Erdos67b.MRHalaszBands.gsA10PrimeRowBetaDensity_source_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10BetaSourceSchedule.lean:285:0: 'Erdos67b.MRHalaszBands.gsA10PrimeRowBetaRemainder_source_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10BetaSourceSchedule.lean:286:0: 'Erdos67b.MRHalaszBands.gsA10PrimeRowBetaRemainder_source_le_rpow' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10BetaSourceSchedule.lean:287:0: 'Erdos67b.MRHalaszBands.eventually_gsA10BetaSourceSchedule' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [9282/9333] Replayed ErdosProblems.Erdos67b.MRGSA10PrimeLambdaNonuniformSchur
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10PrimeLambdaNonuniformSchur.lean:328:0: 'Erdos67b.MRHalaszBands.finiteHalaszLogGaussianPairMajorant_le_weightedSchur_rowDependent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10PrimeLambdaNonuniformSchur.lean:330:0: 'Erdos67b.MRHalaszBands.intervalIntegral_normSq_gsA10PrimeLambdaPolynomial_le_rowDependentSchur' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10PrimeLambdaNonuniformSchur.lean:331:0: 'Erdos67b.MRHalaszBands.primeLogDiv_le_four_mul_log_four_mul_div' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10PrimeLambdaNonuniformSchur.lean:333:0: 'Erdos67b.MRHalaszBands.sum_gsA10PrimeNearWindow_log_div_gaussian_le_of_localIntervalBeta' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10PrimeLambdaNonuniformSchur.lean:334:0: 'Erdos67b.MRHalaszBands.sum_gsA10PrimeWindow_log_div_gaussian_le_of_localIntervalBeta' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [9283/9333] Replayed ErdosProblems.Erdos67b.MRGSA10PrimeLocalRow
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10PrimeLocalRow.lean:512:0: 'Erdos67b.MRHalaszBands.exists_sum_gsA10PrimeNearWindow_log_div_gaussian_local_beta_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10PrimeLocalRow.lean:514:0: 'Erdos67b.MRHalaszBands.exists_sum_gsA10PrimeNearWindow_log_div_gaussian_source_local_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10PrimeLocalRow.lean:515:0: 'Erdos67b.MRHalaszBands.exists_sum_gsA10PrimeWindow_log_div_gaussian_local_beta_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10PrimeLocalRow.lean:516:0: 'Erdos67b.MRHalaszBands.exists_sum_gsA10PrimeWindow_log_div_gaussian_source_local_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10PrimeLocalRow.lean:517:0: 'Erdos67b.MRHalaszBands.gsA10Prime_source_local_terms_le_uniform' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10PrimeLocalRow.lean:519:0: 'Erdos67b.MRHalaszBands.exists_sum_gsA10PrimeNearWindow_log_div_gaussian_source_uniform_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10PrimeLocalRow.lean:520:0: 'Erdos67b.MRHalaszBands.eventually_gsA10BetaSourceCutoff_le_quarter' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10PrimeLocalRow.lean:521:0: 'Erdos67b.MRHalaszBands.exists_gsA10BetaSourceRowStructural_threshold' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10PrimeLocalRow.lean:523:0: 'Erdos67b.MRHalaszBands.exists_sum_gsA10PrimeNearWindow_log_div_gaussian_source_uniform_eventual_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [9285/9333] Replayed ErdosProblems.Erdos67b.MRGSA10PrimeGaussianFarShell
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10PrimeGaussianFarShell.lean:747:0: 'Erdos67b.MRHalaszBands.prime_mem_Ioc_pow_two_shell' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10PrimeGaussianFarShell.lean:748:0: 'Erdos67b.MRHalaszBands.sum_gsA10PrimeWindow_log_div_gaussian_le_shell_constant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10PrimeGaussianFarShell.lean:749:0: 'Erdos67b.MRHalaszBands.sum_gsA10PrimeFarWindow_log_div_gaussian_le_shell_constant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10PrimeGaussianFarShell.lean:751:0: 'Erdos67b.MRHalaszBands.sum_gsA10PrimeWindow_log_div_gaussian_le_shell_constant_of_one_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10PrimeGaussianFarShell.lean:753:0: 'Erdos67b.MRHalaszBands.sum_gsA10PrimeFarWindow_log_div_gaussian_le_shell_constant_of_one_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10PrimeGaussianFarShell.lean:754:0: 'Erdos67b.MRHalaszBands.sum_gsA10PrimeFarWindow_log_div_gaussian_le_shell_constant_div' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10PrimeGaussianFarShell.lean:756:0: 'Erdos67b.MRHalaszBands.sum_gsA10PrimeWindow_log_div_gaussian_le_of_intervalBeta_farShell' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10PrimeGaussianFarShell.lean:758:0: 'Erdos67b.MRHalaszBands.exists_sum_gsA10PrimeWindow_log_div_gaussian_beta_bound_farShell' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [9286/9333] Replayed ErdosProblems.Erdos67b.MRGSA10PrimeLambdaBetaDiagonal
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10PrimeLambdaBetaDiagonal.lean:939:0: 'Erdos67b.MRHalaszBands.sum_vonMangoldt_div_mul_normalized_rpow_primeWindow_le_beta' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10PrimeLambdaBetaDiagonal.lean:940:0: 'Erdos67b.MRHalaszBands.sum_gsA10PrimeLambdaSchurWeight_fixedHigh_left_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10PrimeLambdaBetaDiagonal.lean:941:0: 'Erdos67b.MRHalaszBands.mul_sum_gsA10PrimeLambdaSchurWeight_fixedHigh_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10PrimeLambdaBetaDiagonal.lean:942:0: 'Erdos67b.MRHalaszBands.mul_sum_gsA10PrimeLambdaSchurWeight_symmetric_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10PrimeLambdaBetaDiagonal.lean:943:0: 'Erdos67b.MRHalaszBands.rpow_half_sum_gsA10PrimeLambdaSchurWeight_symmetric_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [9288/9333] Replayed ErdosProblems.Erdos67b.MRGSA10SourceYSchedule
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10SourceYSchedule.lean:416:0: 'Erdos67b.MRHalaszBands.eventually_gsA10SourceCutoff_structural' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10SourceYSchedule.lean:417:0: 'Erdos67b.MRHalaszBands.tendsto_log_gsA10SourceCutoff_div_log' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10SourceYSchedule.lean:418:0: 'Erdos67b.MRHalaszBands.tendsto_inv_log_gsA10SourceCutoff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10SourceYSchedule.lean:419:0: 'Erdos67b.MRHalaszBands.tendsto_log_div_gsA10SourceCutoff_mul_primeReciprocals' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10SourceYSchedule.lean:420:0: 'Erdos67b.MRHalaszBands.exists_gsA10SourceCutoff_uniform_threshold_on_finset' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [9289/9333] Replayed ErdosProblems.Erdos67b.MRGSA10PrimeLambdaSourceCumulative
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10PrimeLambdaSourceCumulative.lean:866:0: 'Erdos67b.MRHalaszBands.intervalIntegral_normSq_gsA10PrimeLambdaPolynomial_le_affineRow' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10PrimeLambdaSourceCumulative.lean:868:0: 'Erdos67b.MRHalaszBands.two_intervalIntegral_normSq_gsA10PrimeLambda_tao_le_affineRow' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10PrimeLambdaSourceCumulative.lean:870:0: 'Erdos67b.MRHalaszBands.two_gsA10WeightedVerticalEnergy_tao_le_affineRow' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10PrimeLambdaSourceCumulative.lean:872:0: 'Erdos67b.MRHalaszBands.two_gsA10WeightedVerticalEnergy_tao_le_affineRow_above' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10PrimeLambdaSourceCumulative.lean:874:0: 'Erdos67b.MRHalaszBands.sum_gsA10PrimeWindow_log_div_gaussian_le_sourceAffineRow' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10PrimeLambdaSourceCumulative.lean:876:0: 'Erdos67b.MRHalaszBands.exists_two_gsA10WeightedVerticalEnergy_tao_sourceSchedule' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10PrimeLambdaSourceCumulative.lean:878:0: 'Erdos67b.MRHalaszBands.exists_two_gsA10WeightedVerticalEnergy_tao_sourceCutoff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10PrimeLambdaSourceCumulative.lean:880:0: 'Erdos67b.MRHalaszBands.two_gsA10WeightedVerticalEnergy_tao_le_affineRow_diagonal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10PrimeLambdaSourceCumulative.lean:882:0: 'Erdos67b.MRHalaszBands.rpow_half_mul_gsA10WeightedVerticalEnergy_tao_le_affineRow_symmetric' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10PrimeLambdaSourceCumulative.lean:885:0: 'Erdos67b.MRHalaszBands.exists_rpow_half_mul_gsA10WeightedVerticalEnergy_tao_sourceSchedule_symmetric' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10PrimeLambdaSourceCumulative.lean:886:0: 'Erdos67b.MRHalaszBands.exists_rpow_half_mul_gsA10WeightedVerticalEnergy_tao_sourceCutoff_symmetric' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [9293/9333] Replayed ErdosProblems.Erdos67b.MRGSA10FixedHighTailoredPerron
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10FixedHighTailoredPerron.lean:268:0: 'Erdos67b.MRHalaszBands.exists_norm_gsA10SourceDeletedMovingPerronIntegral_fixedHigh_scalar_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [9296/9333] Replayed ErdosProblems.Erdos67b.MRGSA10CoefficientMassSourceScalar
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10CoefficientMassSourceScalar.lean:519:0: 'Erdos67b.MRHalaszBands.dirichletPerronCoefficientMass_le_norm_LSeries_of_major' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10CoefficientMassSourceScalar.lean:521:0: 'Erdos67b.MRHalaszBands.dirichletPerronCoefficientMass_twoBlockAlternatingLow_le_positive' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10CoefficientMassSourceScalar.lean:522:0: 'Erdos67b.MRHalaszBands.dirichletPerronCoefficientMass_gsA9HighArithmetic_le_positive' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10CoefficientMassSourceScalar.lean:523:0: 'Erdos67b.MRHalaszBands.mul_dirichletPerronCoefficientMass_twoBlockLow_high_le_fixedTao' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10CoefficientMassSourceScalar.lean:524:0: 'Erdos67b.MRHalaszBands.dirichletPerronCoefficientMass_twoBlockTailored_fixedTao_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [9298/9333] Replayed ErdosProblems.Erdos67b.MRPerronNearProgression
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRPerronNearProgression.lean:326:0: 'Erdos67b.MRPerronNearProgression.sum_Icc_dirichletPerronNearError_mul_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [9299/9333] Replayed ErdosProblems.Erdos67b.MRPerronNearTripleConvolution
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRPerronNearTripleConvolution.lean:308:0: 'Erdos67b.MRPerronNearTripleConvolution.sum_Icc_nested_antidiagonal_near_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRPerronNearTripleConvolution.lean:310:0: 'Erdos67b.MRPerronNearTripleConvolution.dirichletPerronNearMass_mul_mul_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [9300/9333] Replayed ErdosProblems.Erdos67b.MRGSA10TailoredNearMassOrdinary
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10TailoredNearMassOrdinary.lean:285:0: 'Erdos67b.MRHalaszBands.norm_gsRealShift_gsA10LambdaWindow_le_ordinaryNearWeight' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10TailoredNearMassOrdinary.lean:286:0: 'Erdos67b.MRHalaszBands.sum_gsA10HigherPrimePowerLambdaWindowWeight_div_le_mass' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10TailoredNearMassOrdinary.lean:288:0: 'Erdos67b.MRHalaszBands.dirichletPerronNearMass_gsA10TwoBlockTailoredCoefficient_le_ordinary' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [9302/9333] Replayed ErdosProblems.Erdos67b.MRGSA10TailoredNearMass
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10TailoredNearMass.lean:281:0: 'Erdos67b.MRHalaszBands.dirichletPerronNearMass_gsA10TwoBlockTailoredCoefficient_le_vonMangoldt' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10TailoredNearMass.lean:283:0: 'Erdos67b.MRHalaszBands.norm_gsA10TwoBlockTailoredCoefficient_apply_le_log_sq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [9303/9333] Replayed ErdosProblems.Erdos67b.MRGSA10HalfEndpointOrdinary
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10HalfEndpointOrdinary.lean:327:0: 'Erdos67b.MRHalaszBands.norm_gsA10TwoBlockTailoredCoefficient_apply_le_log_sq_add_hpp' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10HalfEndpointOrdinary.lean:329:0: 'Erdos67b.MRHalaszBands.norm_gsA10TwoBlockTailoredCoefficient_div_two_mul_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10HalfEndpointOrdinary.lean:331:0: 'Erdos67b.MRHalaszBands.norm_gsA10TwoBlockTailoredCoefficient_div_two_mul_le_zeroHPP' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [9304/9333] Replayed ErdosProblems.Erdos67b.MRGSA10HalfEndpointOrdinaryScalar
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10HalfEndpointOrdinaryScalar.lean:373:0: 'Erdos67b.MRHalaszBands.sum_nested_two_weights_le_mul_reciprocalMass' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10HalfEndpointOrdinaryScalar.lean:374:0: 'Erdos67b.MRHalaszBands.gsA10OrdinaryHalfEndpointHPPError_le_mass' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10HalfEndpointOrdinaryScalar.lean:375:0: 'Erdos67b.MRHalaszBands.norm_gsA10TwoBlockTailoredCoefficient_div_two_mul_le_mass' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10HalfEndpointOrdinaryScalar.lean:376:0: 'Erdos67b.MRHalaszBands.norm_gsA10TwoBlockTailoredCoefficient_div_two_mul_le_explicit' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [9306/9333] Replayed ErdosProblems.Erdos67b.MRGSA10TwoBlockAtypicalScalar
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10TwoBlockAtypicalScalar.lean:690:0: 'Erdos67b.disjoint_primesInBlock_gsA10Canonical' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10TwoBlockAtypicalScalar.lean:691:0: 'Erdos67b.gsA10CanonicalBlock_uppers_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10TwoBlockAtypicalScalar.lean:692:0: 'Erdos67b.mrTwoBlockOutside_gsA10Canonical_of_le_three' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10TwoBlockAtypicalScalar.lean:693:0: 'Erdos67b.exists_twoBlock_atypicalFactorizationSet_le_of_logRatios' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10TwoBlockAtypicalScalar.lean:694:0: 'Erdos67b.exists_gsA10Canonical_atypicalFactorizationSet_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10TwoBlockAtypicalScalar.lean:695:0: 'Erdos67b.sum_gsA10Canonical_betaRemainder_le_density' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10TwoBlockAtypicalScalar.lean:696:0: 'Erdos67b.exists_gsA10Canonical_scheduled_atypicalFactorizationSet_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10TwoBlockAtypicalScalar.lean:698:0: 'Erdos67b.exists_gsA10Canonical_scheduled_atypicalFactorizationSet_le_log_half' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10TwoBlockAtypicalScalar.lean:700:0: 'Erdos67b.exists_gsA10Canonical_scheduled_atypicalFactorizationSet_le_realLog_half' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [9307/9333] Replayed ErdosProblems.Erdos67b.MRGSA10TwoBlockAtypicalLargeScalar
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10TwoBlockAtypicalLargeScalar.lean:406:0: 'Erdos67b.disjoint_primesInBlock_gsA10CanonicalLarge' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10TwoBlockAtypicalLargeScalar.lean:407:0: 'Erdos67b.mrTwoBlockOutside_gsA10CanonicalLarge_of_le_twentyThree' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10TwoBlockAtypicalLargeScalar.lean:408:0: 'Erdos67b.twentyThree_le_of_mem_gsA10CanonicalLarge' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10TwoBlockAtypicalLargeScalar.lean:409:0: 'Erdos67b.exists_gsA10CanonicalLarge_scheduled_atypicalFactorizationSet_le_realLog_half' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [9308/9333] Replayed ErdosProblems.Erdos67b.MRGSA10MovingPerronCanonicalBlocks
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10MovingPerronCanonicalBlocks.lean:163:0: 'Erdos67b.MRHalaszBands.norm_LSeries_gsA10TwoBlockCanonicalTailored_le_movingScalar' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10MovingPerronCanonicalBlocks.lean:165:0: 'Erdos67b.MRHalaszBands.norm_gsA10TwoBlockCanonicalMovingPerronIntegral_le_scalar' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10MovingPerronCanonicalBlocks.lean:167:0: 'Erdos67b.MRHalaszBands.norm_LSeries_gsA10CanonicalLargeTailored_le_movingScalar' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10MovingPerronCanonicalBlocks.lean:169:0: 'Erdos67b.MRHalaszBands.norm_gsA10CanonicalLargeMovingPerronIntegral_le_scalar' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [9309/9333] Replayed ErdosProblems.Erdos67b.MRGSA10CoefficientMassBaseScalar
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10CoefficientMassBaseScalar.lean:79:0: 'Erdos67b.MRHalaszBands.gsA10OrdinaryLambdaWindowMassBase_le_log' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [9310/9333] Replayed ErdosProblems.Erdos67b.MRGSA10PerronRpowAverage
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10PerronRpowAverage.lean:155:0: 'Erdos67b.MRHalaszBands.sourcePerron_rpow_mul_leftGrowth_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10PerronRpowAverage.lean:156:0: 'Erdos67b.MRHalaszBands.doubleIntervalIntegral_sourcePerron_rpow_mul_leftGrowth_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [9312/9333] Replayed ErdosProblems.Erdos67b.MRGSA10MovingPerronProjection
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10MovingPerronProjection.lean:804:0: 'Erdos67b.MRHalaszBands.norm_positivePrefixSum_gsA10TwoBlockTailored_sub_movingPerron_le_rawError' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10MovingPerronProjection.lean:806:0: 'Erdos67b.MRHalaszBands.dirichletPerronCoefficientMass_twoBlockTailored_le_movingEnvelope' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10MovingPerronProjection.lean:809:0: 'Erdos67b.MRHalaszBands.norm_positivePrefixSum_gsA10TwoBlockTailored_sub_movingPerron_le_massEnvelope' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10MovingPerronProjection.lean:810:0: 'Erdos67b.MRHalaszBands.doubleIntervalIntegral_gsA10MovingPerronMassEnvelope_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10MovingPerronProjection.lean:812:0: 'Erdos67b.MRHalaszBands.two_mul_doubleIntervalIntegral_gsA10MovingPerronMassEnvelope_div_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10MovingPerronProjection.lean:814:0: 'Erdos67b.MRHalaszBands.two_mul_doubleIntervalIntegral_gsA10MovingPerronMassEnvelope_div_le_eta' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10MovingPerronProjection.lean:816:0: 'Erdos67b.MRHalaszBands.gsA10MovingPerronMassRectangle_le_eta' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10MovingPerronProjection.lean:818:0: 'Erdos67b.MRHalaszBands.gsA10MovingPerronMassRectangle_le_sourceLog' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10MovingPerronProjection.lean:821:0: 'Erdos67b.MRHalaszBands.norm_positivePrefixSum_gsA10CanonicalLargeTailored_sub_movingPerron_le_massEnvelope' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10MovingPerronProjection.lean:822:0: 'Erdos67b.MRHalaszBands.norm_positivePrefixSum_gsA10TwoBlockTailored_sub_movingPerron_le_error' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10MovingPerronProjection.lean:825:0: 'Erdos67b.MRHalaszBands.norm_positivePrefixSum_gsA10TwoBlockTailored_sub_movingPerron_le_sourceScalar' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10MovingPerronProjection.lean:827:0: 'Erdos67b.MRHalaszBands.norm_positivePrefixSum_gsA10CanonicalLargeTailored_sub_movingPerron_le_sourceScalar' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10MovingPerronProjection.lean:829:0: 'Erdos67b.MRHalaszBands.norm_positivePrefixSum_gsA10CanonicalLargeTailored_sub_movingPerron_div_le_sourceScalar' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [9313/9333] Replayed ErdosProblems.Erdos67b.MRGSA10NearWeightAverage
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10NearWeightAverage.lean:96:0: 'Erdos67b.MRHalaszBands.intervalIntegral_intervalIntegral_exp_natLog_two_shift_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [9314/9333] Replayed ErdosProblems.Erdos67b.MRGSA10TailoredNearMassScalar
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10TailoredNearMassScalar.lean:271:0: 'Erdos67b.MRHalaszBands.dirichletPerronNearMass_gsA10TwoBlockTailoredCoefficient_le_scalar' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [9315/9333] Replayed ErdosProblems.Erdos67b.MRGSA10HighPrimePairCount
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10HighPrimePairCount.lean:144:0: 'Erdos67b.MRHalaszBands.sum_card_gsA10HighPrimes_div_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [9316/9333] Replayed ErdosProblems.Erdos67b.MRGSA10NearPrimeAverage
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10NearPrimeAverage.lean:414:0: 'Erdos67b.MRHalaszBands.two_mul_intervalIntegral_primeWindowWeights_le_indicator' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10NearPrimeAverage.lean:416:0: 'Erdos67b.MRHalaszBands.sum_indicator_highPrimePairs_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10NearPrimeAverage.lean:417:0: 'Erdos67b.MRHalaszBands.sum_two_mul_intervalIntegral_primeWindowWeights_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10NearPrimeAverage.lean:419:0: 'Erdos67b.MRHalaszBands.sum_indicator_highPrimePairs_inv_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10NearPrimeAverage.lean:420:0: 'Erdos67b.MRHalaszBands.sum_two_mul_inv_intervalIntegral_primeWindowWeights_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [9317/9333] Replayed ErdosProblems.Erdos67b.MRGSA10NearHPPAverage
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10NearHPPAverage.lean:719:0: 'Erdos67b.MRHalaszBands.gsA10NearHPPPairWeight_eq_zero_mul_exp' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10NearHPPAverage.lean:720:0: 'Erdos67b.MRHalaszBands.two_mul_intervalIntegral_nearHPPPairWeight_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10NearHPPAverage.lean:721:0: 'Erdos67b.MRHalaszBands.sum_sum_gsA10NearHPPPairWeight_zero_div_mul_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10NearHPPAverage.lean:722:0: 'Erdos67b.MRHalaszBands.sum_two_mul_intervalIntegral_nearHPPPairWeight_le_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10NearHPPAverage.lean:723:0: 'Erdos67b.MRHalaszBands.sum_two_mul_inv_intervalIntegral_nearHPPPairWeight_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10NearHPPAverage.lean:724:0: 'Erdos67b.MRHalaszBands.sum_gsA10NearHPPPairWeight_zero_le_twoX_mul_budget' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10NearHPPAverage.lean:725:0: 'Erdos67b.MRHalaszBands.sum_two_mul_intervalIntegral_nearHPPPairWeight_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [9318/9333] Replayed ErdosProblems.Erdos67b.MRGSA10SecondSecondaryIntegral
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10SecondSecondaryIntegral.lean:210:0: 'Erdos67b.MRHalaszBands.gsFiniteNormDirichletMass_antitone' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10SecondSecondaryIntegral.lean:211:0: 'Erdos67b.MRHalaszBands.norm_gsA10SecondSecondaryPrefix_le_chebyshev_masses' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [9320/9333] Replayed ErdosProblems.Erdos67b.MRGSA10FiniteHighMass
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10FiniteHighMass.lean:221:0: 'Erdos67b.MRHalaszBands.gsFiniteNormDirichletMass_gsA9HighArithmetic_le_positive_LSeries' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10FiniteHighMass.lean:222:0: 'Erdos67b.MRHalaszBands.gsFiniteNormDirichletMass_gsA9HighArithmetic_le_sourceConstant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [9321/9333] Replayed ErdosProblems.Erdos67b.MRGSA10FiniteMassScalar
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10FiniteMassScalar.lean:75:0: 'Erdos67b.MRHalaszBands.gsFiniteNormDirichletMass_le_norm_LSeries_of_major' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [9322/9333] Replayed ErdosProblems.Erdos67b.MRGSA10FiniteLowMassScalar
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10FiniteLowMassScalar.lean:317:0: 'Erdos67b.MRHalaszBands.gsFiniteNormDirichletMass_twoBlockAlternatingLow_le_positive_LSeries_explicit' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10FiniteLowMassScalar.lean:319:0: 'Erdos67b.MRHalaszBands.gsFiniteNormDirichletMass_twoBlockAlternatingLow_le_sourceConstant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [9323/9333] Replayed ErdosProblems.Erdos67b.MRGSA10SecondSecondaryPrimeIntegral
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10SecondSecondaryPrimeIntegral.lean:246:0: 'Erdos67b.MRHalaszBands.norm_gsA10TwoBlockSecondSecondaryPrimePrefix_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10SecondSecondaryPrimeIntegral.lean:247:0: 'Erdos67b.MRHalaszBands.norm_gsA10TwoBlockSecondSecondaryPrefix_le_prime_add_higher' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [9327/9509] Replayed ErdosProblems.Erdos67b.MRGSA10OrdinaryMovingProjectionAverage
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10OrdinaryMovingProjectionAverage.lean:876:0: 'Erdos67b.MRHalaszBands.sum_integral_ordinaryNearKernel_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10OrdinaryMovingProjectionAverage.lean:878:0: 'Erdos67b.MRHalaszBands.norm_positivePrefixSum_gsA10TwoBlockTailored_sub_movingPerron_le_ordinaryMajorant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10OrdinaryMovingProjectionAverage.lean:879:0: 'Erdos67b.MRHalaszBands.gsA10OrdinaryMovingProjectionRectangleMajorant_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10OrdinaryMovingProjectionAverage.lean:882:0: 'Erdos67b.MRHalaszBands.norm_two_mul_doubleIntervalIntegral_twoBlockTailored_sub_movingPerron_div_le_ordinary' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [9340/9509] Replayed ErdosProblems.Erdos67b.MRGSA10LambdaWindowMassScalar
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10LambdaWindowMassScalar.lean:193:0: 'Erdos67b.MRHalaszBands.one_sub_min_taoExponent_sub_le_inv_log' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10LambdaWindowMassScalar.lean:195:0: 'Erdos67b.MRHalaszBands.mul_dirichletPerronCoefficientMass_gsA10LambdaWindow_sourceLines_le_rpow_inv_log' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10LambdaWindowMassScalar.lean:197:0: 'Erdos67b.MRHalaszBands.mul_dirichletPerronCoefficientMass_gsA10SourceDeleted_sourceLines_le_rpow_inv_log' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10LambdaWindowMassScalar.lean:198:0: 'Erdos67b.MRHalaszBands.mul_dirichletPerronCoefficientMass_gsA10LambdaWindow_lines_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10LambdaWindowMassScalar.lean:201:0: 'Erdos67b.MRHalaszBands.mul_dirichletPerronCoefficientMass_gsA10SourceDeleted_lines_le_rpow_three_inv_log' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [9341/9509] Replayed ErdosProblems.Erdos67b.MRGSA10TailoredPerronContour
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10TailoredPerronContour.lean:312:0: 'Erdos67b.MRHalaszBands.norm_gsA10SourceTailoredPerronIntegral_le_of_shiftedHighCharge' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [9342/9509] Replayed ErdosProblems.Erdos67b.MRGSA10GlobalSecondaryShiu
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10GlobalSecondaryShiu.lean:258:0: 'Erdos67b.MRHalaszBands.gsA10TwoBlockGlobalSecondaryError_le_log' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10GlobalSecondaryShiu.lean:260:0: 'Erdos67b.MRHalaszBands.norm_positivePrefixSum_gsA10TwoBlockReconstructed_le_tailored_add_log' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10GlobalSecondaryShiu.lean:261:0: 'Erdos67b.MRHalaszBands.norm_positivePrefixMean_gsA10TwoBlock_archimedeanUntwist_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [9343/9509] Replayed ErdosProblems.Erdos67b.MRGSA10TailoredPerronRectangle
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10TailoredPerronRectangle.lean:286:0: 'Erdos67b.MRHalaszBands.norm_gsA10SourceTailoredIntegratedPrefix_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10TailoredPerronRectangle.lean:287:0: 'Erdos67b.MRHalaszBands.norm_positivePrefixMean_gsA10SourceDeleted_reconstructed_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [9344/9509] Replayed ErdosProblems.Erdos67b.MRGSA9SourceHalaszPointWideLocal
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA9SourceHalaszPointWideLocal.lean:292:0: 'Erdos67b.MRHalaszBands.norm_LSeries_halaszPoint_le_one_add_log_mul_exp_of_distance' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA9SourceHalaszPointWideLocal.lean:295:0: 'Erdos67b.MRHalaszBands.norm_twoBlock_alternatingLow_deleteSmallPrimes_mul_high_le_wideHalaszPoint_of_distance' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA9SourceHalaszPointWideLocal.lean:296:0: 'Erdos67b.MRHalaszBands.norm_twoBlock_alternatingLow_mul_high_le_wideHalaszPoint_of_distance' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [9345/9509] Replayed ErdosProblems.Erdos67b.MRGSA10FixedHighRestoredPerron
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10FixedHighRestoredPerron.lean:494:0: 'Erdos67b.MRHalaszBands.exists_norm_gsA10MovingPerronIntegral_fixedHigh_restored_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10FixedHighRestoredPerron.lean:496:0: 'Erdos67b.MRHalaszBands.gsA10RestoredFixedHighPerronBudget_mono_beta' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10FixedHighRestoredPerron.lean:498:0: 'Erdos67b.MRHalaszBands.exists_norm_gsA10TwoBlockMovingPerronIntegrated_fixedHigh_restored_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10FixedHighRestoredPerron.lean:500:0: 'Erdos67b.MRHalaszBands.exists_norm_gsA10CanonicalLargeMovingPerronIntegral_fixedHigh_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10FixedHighRestoredPerron.lean:502:0: 'Erdos67b.MRHalaszBands.exists_norm_gsA10CanonicalLargeMovingPerronIntegral_le_restoredBudget' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [9346/9509] Replayed ErdosProblems.Erdos67b.MRGSA10MovingRpowRestoredPerron
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10MovingRpowRestoredPerron.lean:238:0: 'Erdos67b.MRHalaszBands.exists_norm_gsA10MovingPerronIntegral_fixedHigh_restored_le_movingRpow' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [9347/9509] Replayed ErdosProblems.Erdos67b.MRGSA10MovingRpowAverage
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10MovingRpowAverage.lean:269:0: 'Erdos67b.MRHalaszBands.gsA10MovingRpowPrimeFactor_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10MovingRpowAverage.lean:270:0: 'Erdos67b.MRHalaszBands.gsA10PrimeLambda_energyPair_eq_ratio_mul_right' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10MovingRpowAverage.lean:272:0: 'Erdos67b.MRHalaszBands.doubleIntervalIntegral_gsA10MovingRpowPrimeFactor_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10MovingRpowAverage.lean:274:0: 'Erdos67b.MRHalaszBands.doubleIntervalIntegral_gsA10MovingPerronKernelScale_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [9348/9509] Replayed ErdosProblems.Erdos67b.MRGSA10RestoredPerronScalar
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10RestoredPerronScalar.lean:210:0: 'Erdos67b.MRHalaszBands.two_mul_invLogSq_mul_restoredPerronBudget_div_eq_sourceScalar' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10RestoredPerronScalar.lean:212:0: 'Erdos67b.MRHalaszBands.exists_norm_gsA10TwoBlockMovingPerronIntegrated_fixedHigh_sourceScalar_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10RestoredPerronScalar.lean:214:0: 'Erdos67b.MRHalaszBands.gsA10RestoredFixedHighSourceScalarBudget_le_upper' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10RestoredPerronScalar.lean:217:0: 'Erdos67b.MRHalaszBands.exists_norm_gsA10TwoBlockMovingPerronIntegrated_fixedHigh_sourceScalarUpper_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [9351/9509] Replayed ErdosProblems.Erdos67b.MRGSA10TwoBlockAtypicalSourceScale
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10TwoBlockAtypicalSourceScale.lean:873:0: 'Erdos67b.sum_gsA10CanonicalLarge_betaRemainder_le_density_of_exponent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10TwoBlockAtypicalSourceScale.lean:874:0: 'Erdos67b.exists_gsA10SourceScale_scheduled_atypicalFactorizationSet_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [9352/9509] Replayed ErdosProblems.Erdos67b.MRGSA10TwoBlockAtypicalSmallPowerScale
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10TwoBlockAtypicalSmallPowerScale.lean:581:0: 'Erdos67b.eventually_four_mul_smallPowerBlockExponent_sq_le_log' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10TwoBlockAtypicalSmallPowerScale.lean:582:0: 'Erdos67b.eventually_log_pow_four_le_gsA10SmallPowerBlockCutoff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [9354/9509] Replayed ErdosProblems.Erdos67b.MRGSA10SmallPowerHPPScalar
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10SmallPowerHPPScalar.lean:255:0: 'Erdos67b.eventually_log_pow_six_le_gsA10SmallPowerBlockCutoff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10SmallPowerHPPScalar.lean:256:0: 'Erdos67b.MRHalaszBands.gsA10SourceHPPRectangleFactor_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [9357/9509] Replayed ErdosProblems.Erdos67b.MRGSA10SourceSmallPowerRowScalar
+info: third_party/plby/src/latest/ErdosProblems/Erdos67b/MRGSA10SourceSmallPowerRowScalar.lean:128:0: 'Erdos67b.MRHalaszBands.gsA10PrimeSourceAffineRow_smallPower_mul_log_sq_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [9492/9509] Replayed RealFarEnergy
+info: RealFarEnergy.lean:52:0: 'JSP1006.real_far_typical_energy_and_density' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [9501/9509] Replayed LongWindowDeficit
+warning: LongWindowDeficit.lean:122:33: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: LongWindowDeficit.lean:122:33: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [9503/9509] Replayed ComparisonBudget
+warning: ComparisonBudget.lean:34:30: Variable name `hdelta` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hdelta
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: ComparisonBudget.lean:74:57: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+ℹ [9504/9509] Replayed RealTwoLengthComparison
+info: RealTwoLengthComparison.lean:107:0: 'JSP1006.real_twoLength_comparison' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [9507/9509] Replayed DyadicDensity
+warning: DyadicDensity.lean:118:46: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: DyadicDensity.lean:122:27: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+ℹ [9508/9509] Built Erdos1201 (18s)
+info: Erdos1201.lean:121:0: 'Erdos1201.erdos_1201' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Erdos1201.lean:122:0: 'Erdos1201.erdos_1201_eventually' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (9509 jobs).
