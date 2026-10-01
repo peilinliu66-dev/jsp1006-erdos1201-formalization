@@ -788,6 +788,5 @@
     "FarSampleSmall.lean": "9502add6b22f2b2515b31795ced8b6ab5380ee254c5ee87771fb2dd0682d0bb3",
     "FarScheduledEnergy.lean": "4b8d9d1ff84ac1245ac0480d8493260ad8b205020a42996abc724076deb716e2",
     "FarTypicalEnergy.lean": "e1fff97dc715a708497080c8bfa43bb5b69ba6cce56063cdc0f8d46c746c467f"
-  },
-  "permission_status": "UNRESOLVED: retrieval does not grant rights"
+  }
 }

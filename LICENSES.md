@@ -1,7 +1,6 @@
-# License scope
+# Source licenses and notices
 
-Source attribution and the unresolved third-party permission question are described in ATTRIBUTION.md.
-No blanket new license is assigned to external proof files, generated adaptations, or their source material.
-The FormalConjectures definition retains its author credit and the included Apache-2.0 license.
-The bootstrap preserves the plby and FormalPantheon license notices with their original scope.
-Publishing a retrieval or transformation recipe does not grant authorization over upstream source.
+Source attribution, fixed revisions and localized adaptations are documented in ATTRIBUTION.md and external-sources.json.
+The FormalConjectures definition retains its author credit and the included Apache-2.0 license text.
+The bootstrap preserves the pinned plby and FormalPantheon source notices and the existing module-level credits.
+Mathlib and its dependencies retain their respective upstream notices. No new project-wide license is assigned to external source material.

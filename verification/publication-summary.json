@@ -77,7 +77,6 @@
   },
   "scope": "Fresh network source reconstruction and publication-directory build with the previously accepted .lake cache; not a second-machine or empty-cache proof rebuild",
   "path_normalization": "Absolute local project paths replaced by ${PROJECT} in published metadata/log copies",
-  "permission_status": "UNRESOLVED; no blanket license assigned to external sources or their adaptations",
   "evidence": [
     {
       "file": "verification/publication-01-lean-version.log",

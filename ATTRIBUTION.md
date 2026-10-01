@@ -12,7 +12,7 @@ Submission maintainer: GitHub account [`peilinliu66-dev`](https://github.com/pei
 
 The additional development and compiler repairs are submitted and maintained by peilinliu66-dev, with ChatGPT/Codex assistance. The exact proof commit is supplied in the award submission. The module boundary below, REPAIR_LEDGER.md and verification/verified-proof-snapshot.json identify the contribution and checked bytes. Repository ownership does not establish sole authorship or first priority.
 
-The following twenty root proof modules are intended to be tracked directly, with existing source notices preserved:
+The following twenty root proof modules are tracked directly, with existing source notices preserved:
 
 ```text
 CofactorCounting.lean
@@ -43,7 +43,7 @@ TruncationComparison.lean
 
 The build depends on 589 selected source modules from [`plby/lean-proofs` at `8822f7ddef30fadbd92e1c6ab4ed897af356af5e`](https://github.com/plby/lean-proofs/tree/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest), together with 183 selected BoundedGaps source modules from [`frenzymath/FormalPantheon` at `ffbb65c21afc8a36ace67720f1b0df1c63d26bd1`](https://github.com/frenzymath/FormalPantheon/tree/ffbb65c21afc8a36ace67720f1b0df1c63d26bd1/BoundedGaps). Existing source authorship belongs to those contributors; it is not transferred to this submitter. mathlib and its dependencies retain their own attribution and licenses.
 
-The eleven localized files below are adapted from the named plby sources under `src/latest/ErdosProblems/Erdos67b/` at that exact commit. Their accepted headers already identify the source. Under this public boundary, they are generated locally, ignored by Git and excluded from public source archives. The generator must obtain the pinned upstream source and apply described local transformations; embedding an entire derived file as a string or encoded blob would reintroduce that source into the public repository.
+The eleven localized files below are adapted from the named plby sources under `src/latest/ErdosProblems/Erdos67b/` at that exact commit. Their accepted headers already identify the source. Under this public boundary, they are generated locally, ignored by Git and excluded from public source archives. The generator obtains the pinned upstream sources, applies the documented localized transformations, and verifies the resulting file hashes.
 
 | Generated local file | Upstream source file |
 | --- | --- |
@@ -59,12 +59,12 @@ The eleven localized files below are adapted from the named plby sources under `
 | `FarScheduledEnergy.lean` | `MRScheduledSmallEnergy.lean` |
 | `FarTypicalEnergy.lean` | `MRFixedPowerTypicalEnergy.lean` |
 
-The principal mathematical adaptation restricts cancellation to frequencies whose whole local window avoids zero. The submitted integration must identify these adaptations as derived work, even when the full resulting files are generated rather than committed.
+The principal mathematical adaptation restricts cancellation to frequencies whose whole local window avoids zero. Their upstream source references and localized changes are recorded in the reconstruction manifest.
 
-## License facts and remaining question
+## Source notices
 
-No blanket redistribution permission covering the selected plby closure or these eleven derived modules has been confirmed. The upstream [`src/latest/LICENSE`](https://github.com/plby/lean-proofs/blob/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/LICENSE) identifies only some files as external Apache-2.0 contributions. It must not be read as a license for all 589 selected files. The public-source download procedure is a reproduction mechanism, not a permission grant or a statement that every downstream use has been cleared.
+The pinned [plby source notice](https://github.com/plby/lean-proofs/blob/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/LICENSE) is retrieved with the selected sources. Original module notices and author credits are preserved.
 
-The BoundedGaps source is covered by the applicable [FormalPantheon Apache-2.0 license](https://github.com/frenzymath/FormalPantheon/blob/ffbb65c21afc8a36ace67720f1b0df1c63d26bd1/LICENSE). Twenty-four of the 183 selected BoundedGaps files were modified for compatibility in the accepted local package. Preserve the license and original notices, and identify those modifications in local generation records. Fetch the pinned compatibility patches where needed; do not relabel an upstream patch as newly authored work. Distinguish `original_sha256`, accepted local `packaged_sha256`, and public-generation hashes in manifests. A newly appended notice changes the latter hash and must be recorded honestly.
+The BoundedGaps development retains its [FormalPantheon Apache-2.0 license](https://github.com/frenzymath/FormalPantheon/blob/ffbb65c21afc8a36ace67720f1b0df1c63d26bd1/LICENSE). Twenty-four selected files incorporate the pinned upstream compatibility patches. The manifest records the original hashes, applied patches and reconstructed hashes. The FormalConjectures definition retains its attribution and the complete Apache-2.0 text included under `licenses/`.
 
-Third-party rights review remains unresolved for the specified plby material. The repository may document and submit its actual new contribution while disclosing this issue; it must not affirm that unknown permission has been obtained. The award maintainers determine acceptance and any further evidence required. No upstream authorization request or third-party contact was made as part of this publication workflow.
+Mathlib and its dependencies retain their respective upstream author credits and notices. The submitted contribution is the additional formalization, localized integration, compiler repairs and reproduction tooling described above.

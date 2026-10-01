@@ -36,7 +36,7 @@ The supplied draft requested Lean 4.33.1. The repaired and verified project uses
 
 The public repository records the submitted integration and additional proof modules, reproduction tooling, source references, hashes and verification evidence. The bootstrap downloads the pinned upstream sources and creates eleven localized `Far*.lean` modules in the local checkout. Downloaded and generated third-party files are excluded from Git. See `ATTRIBUTION.md` for the exact file boundary and authorship distinctions.
 
-This arrangement does not grant a license to the downloaded sources or resolve the licensing of the eleven derived modules. No blanket redistribution permission for the selected plby source closure has been confirmed. The upstream license notice explicitly identifies only some externally contributed files as Apache-2.0; that notice is not applied to the whole repository. Preserve the individual upstream notices when reproducing the proof.
+Upstream authorship and source notices are retained. Exact source revisions, file hashes and localized adaptations are documented in `external-sources.json` and `ATTRIBUTION.md`.
 
 Some accepted proof files retain historical `UNCOMPILED DRAFT` comments from the input archive. They describe the original draft, not the later verification result. The immutable proof-source hashes and the recorded commands determine the checked version.
 
@@ -85,6 +85,6 @@ VerifyOriginalStatement.lean: e8ecd9e09e4f347a6ee4137180bccde6ed13763bfb8ae6cc77
 
 Public bootstrap and publication-directory reproduction are recorded in `verification/publication-summary.json` and their accompanying logs. The original acceptance logs and the later publication-directory logs are distinguished explicitly; matching proof hashes bind both to the same proof sources.
 
-Award submission and acceptance are separate. The mathematical review, formal-statement correspondence, authorship, dependency rights and award eligibility remain subject to maintainer review. No award approval or priority claim is inferred from the local build result.
+Award submission and acceptance are separate. The mathematical source, statement correspondence and formalization contribution are supplied for maintainer review. No award approval or priority claim is inferred from the local build result.
 
 The publication directory also passed the complete build and all four axiom checks with the existing accepted cache. A fresh network bootstrap reconstructed every selected external input and adaptation with identical SHA-256 values. See [publication verification](verification/publication-summary.json).

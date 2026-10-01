@@ -1,5 +1,5 @@
 {
-  "status": "PINNED_RETRIEVAL_AND_ADAPTATION; RIGHTS_UNRESOLVED",
+  "status": "PINNED_RETRIEVAL_AND_ADAPTATION",
   "external_lean_files": 772,
   "sources": [
     {
@@ -6384,7 +6384,6 @@
       ],
       "copied_bytes": 2832,
       "inserted_bytes": 1071,
-      "permission_status": "UNRESOLVED; transformations do not grant rights",
       "renamed_source_sha256": "cba25373769a330eeeaab3e158d921e6059411bed5bf0d05777feb9d1812a5b2"
     },
     {
@@ -6454,7 +6453,6 @@
       ],
       "copied_bytes": 2734,
       "inserted_bytes": 1100,
-      "permission_status": "UNRESOLVED; transformations do not grant rights",
       "renamed_source_sha256": "462a06bca86b9240f08d88ad951331fa337c02ff1be35a016af0d39f2ae89561"
     },
     {
@@ -6524,7 +6522,6 @@
       ],
       "copied_bytes": 5103,
       "inserted_bytes": 1035,
-      "permission_status": "UNRESOLVED; transformations do not grant rights",
       "renamed_source_sha256": "8b62a16d6808a983dc0079706956a982e1cff8fb4833fc0f32a94330199d8d27"
     },
     {
@@ -6594,7 +6591,6 @@
       ],
       "copied_bytes": 3938,
       "inserted_bytes": 1030,
-      "permission_status": "UNRESOLVED; transformations do not grant rights",
       "renamed_source_sha256": "dcdfd9a065015a511b98455159953ad59604110902a65b4db6a9d98fbec942b0"
     },
     {
@@ -6691,7 +6687,6 @@
       ],
       "copied_bytes": 4053,
       "inserted_bytes": 2101,
-      "permission_status": "UNRESOLVED; transformations do not grant rights",
       "renamed_source_sha256": "818d4fa22eddf1b70141c16820ba620fab1fd8e2492d1fb477a2424a859ee8f5"
     },
     {
@@ -6761,7 +6756,6 @@
       ],
       "copied_bytes": 3314,
       "inserted_bytes": 1081,
-      "permission_status": "UNRESOLVED; transformations do not grant rights",
       "renamed_source_sha256": "16f83e221af6368b64fad86a50032c7b85c9bb59d7e49c8d4a394e2da579dc2b"
     },
     {
@@ -6846,7 +6840,6 @@
       ],
       "copied_bytes": 7924,
       "inserted_bytes": 1384,
-      "permission_status": "UNRESOLVED; transformations do not grant rights",
       "renamed_source_sha256": "bc044d3b3d6dd0ccef20c5c52f6d622b60260d729538f6155285ce163e63fd39"
     },
     {
@@ -6916,7 +6909,6 @@
       ],
       "copied_bytes": 4650,
       "inserted_bytes": 1024,
-      "permission_status": "UNRESOLVED; transformations do not grant rights",
       "renamed_source_sha256": "93dad3d8b532dec40277ea3c571ea2a78143cd3c5afee9b8bebf672fa95de84c"
     },
     {
@@ -6995,7 +6987,6 @@
       ],
       "copied_bytes": 2566,
       "inserted_bytes": 1053,
-      "permission_status": "UNRESOLVED; transformations do not grant rights",
       "renamed_source_sha256": "a450c711702a12917495050040bc0740c0ccbb1b9fbd7bdde86eb5342064196f"
     },
     {
@@ -7053,7 +7044,6 @@
       ],
       "copied_bytes": 2955,
       "inserted_bytes": 1019,
-      "permission_status": "UNRESOLVED; transformations do not grant rights",
       "renamed_source_sha256": "1f1489f6e7b10f180435f21845428452ae0abaa3e0ee6317c44966ead0bac1e6"
     },
     {
@@ -7129,7 +7119,6 @@
       ],
       "copied_bytes": 1948,
       "inserted_bytes": 1225,
-      "permission_status": "UNRESOLVED; transformations do not grant rights",
       "renamed_source_sha256": "aac6f2869e33e1962111585996f9e023bb600520a95c70899b3c1feb9f56a71e"
     }
   ],

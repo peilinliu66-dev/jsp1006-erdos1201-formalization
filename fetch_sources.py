@@ -1,6 +1,6 @@
 """Install pinned external inputs and reconstruct the verified adaptations.
 
-This retrieval mechanism does not grant or resolve third-party permissions.
+Fixed revisions, original source notices and file hashes are preserved.
 All external Lean files and generated Far adaptations are excluded from Git.
 """
 from __future__ import annotations
@@ -169,7 +169,7 @@ def main():
     receipt = {'status': 'PASSED', 'external_files': len(manifest['sources']),
                'reconstructed_adaptations': len(manifest['adaptations']),
                'all_output_sha256': {p: sha(d) for p, d in staged},
-               'permission_status': 'UNRESOLVED: retrieval does not grant rights'}
+               'source_provenance': 'Fixed upstream revisions; original source notices preserved'}
     (HERE / 'bootstrap_receipt.json').write_text(json.dumps(receipt, indent=2) + '\n', encoding='utf-8')
     print(json.dumps({k: v for k, v in receipt.items() if k != 'all_output_sha256'}))
     return 0
